@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-theme="wireframe">
+    <html lang="en">
       <Head>
         <meta charSet="utf-8" />
         <title>{metadata.title}</title>
