@@ -4,6 +4,8 @@ import React from "react";
 import Image from "next/image";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import { GiFactory } from "react-icons/gi";
+import Card from "../components/card/card";
 
 const Page = () => {
   const options = {
@@ -15,6 +17,18 @@ const Page = () => {
     interval: 3000,
     arrows: false,
   };
+  const cards = [
+    {
+      icon: <GiFactory size={100}/>,
+      title: "titre",
+      description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.",
+    },
+    {
+      icon: <GiFactory size={100}/>,
+      title: "titre",
+      description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    },
+  ];
   return (
     <div className=" ">
       <Splide
@@ -77,6 +91,19 @@ const Page = () => {
           </div>
         </SplideSlide>
       </Splide>
+    
+
+    <div className="flex ">
+      {cards.map((card) => {
+        return (
+          <Card
+            icon={card.icon}
+            title={card.title}
+            description={card.description}
+          />
+        );
+      })}
+    </div>
     </div>
   );
 };
