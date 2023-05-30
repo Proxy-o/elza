@@ -23,6 +23,10 @@ export default function SubHeader() {
           <AiOutlinePhone size={20} className="ml-4 mr-1"/>
           <a href="tel:+212661509553">+212 661 50 95 53</a>
         </span>
+        <span className="flex text-sm">
+          <span className="text-sm font-bold items-center pr-1">Fax :</span>
+          <a href="tel:+212522322191">+212 522 322191</a>
+        </span>
       </div>
     </div>
   );
