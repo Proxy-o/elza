@@ -3,7 +3,7 @@ import SubHeader from "./SubHeader";
 
 export default function Header() {
   return (
-    <div className="fixed w-full">
+    <div className="fixed w-full z-50">
       <SubHeader />
       <div className="navbar bg-base-100 px-12 md:px-24 lg:px-32">
         <div className="navbar-start ">
