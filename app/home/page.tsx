@@ -23,35 +23,58 @@ const Page = () => {
         className="border border-black h-full"
       >
         <SplideSlide>
-          <div className="h-[30rem] md:h-[40rem] w-screen  flex ">
-            <div className="bg-primary opacity-80 relative z-10 my-auto h-1/3 m-auto w-4/6 md:mx-0 md:w-4/6 flex">
-              <h1 className="text-white  font-bold  m-auto text-center text-lg md:text-2xl">
+          <div className="h-[30rem] md:h-[40rem] w-screen  flex justify-center items-center">
+            <div className="relative z-10 text-white flex justify-center flex-col ">
+              <h1 className="   m-auto text-center text-2xl md:text-5xl font-extrabold">
                 Une recherche constante de la satisfaction du client
               </h1>
+              <button className="bg-none text-center mt-20 border rounded-lg w-1/3 h-10 mx-auto">
+                En savoir plus
+              </button>
             </div>
             <Image
               src="/images/carousel/img4.webp"
               alt="Image 1"
               fill
-              className="rounded-md object-cover  blur-sm"
+              className="rounded-md object-cover  brightness-50"
             />
           </div>
         </SplideSlide>
         <SplideSlide>
-          <Image
-            src="/images/carousel/img2.webp"
-            alt="Image 2"
-            fill={true}
-            className="rounded-md object-cover"
-          />
+          <div className="h-[30rem] md:h-[40rem] w-screen  flex justify-center items-center">
+            <div className="relative z-10 text-white flex justify-center flex-col ">
+              <h1 className="   m-auto text-center text-2xl md:text-5xl font-extrabold">
+                Une recherche constante de la satisfaction du client
+              </h1>
+              <button className="bg-none text-center mt-20 border rounded-lg w-1/3 h-10 mx-auto">
+                En savoir plus
+              </button>
+            </div>
+            <Image
+              src="/images/carousel/img2.webp"
+              alt="Image 2"
+              fill={true}
+              className="rounded-md object-cover brightness-50"
+            />
+          </div>
         </SplideSlide>
         <SplideSlide>
-          <Image
-            src="/images/carousel/img3.webp"
-            alt="Image 2"
-            fill={true}
-            className="rounded-md object-cover"
-          />
+          <div className="h-[30rem] md:h-[40rem] w-screen  flex justify-center items-center">
+            <div className="relative z-10 text-white flex justify-center flex-col ">
+              <h1 className="   m-auto text-center text-2xl md:text-5xl font-extrabold">
+                Une recherche constante de la satisfaction du client
+              </h1>
+              <button className="bg-none text-center mt-20 border rounded-lg w-1/3 h-10 mx-auto">
+                En savoir plus
+              </button>
+            </div>
+            <Image
+              src="/images/carousel/img3.webp"
+              alt="Image 2"
+              fill={true}
+              className="rounded-md object-cover brightness-50"
+            />
+          </div>
         </SplideSlide>
       </Splide>
     </div>
