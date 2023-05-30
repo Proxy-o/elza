@@ -19,12 +19,13 @@ const Page = () => {
   };
   const cards = [
     {
-      icon: <GiFactory size={100}/>,
+      icon: <GiFactory size={100} />,
       title: "titre",
-      description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.",
+      description:
+        "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.",
     },
     {
-      icon: <GiFactory size={100}/>,
+      icon: <GiFactory size={100} />,
       title: "titre",
       description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     },
@@ -91,19 +92,19 @@ const Page = () => {
           </div>
         </SplideSlide>
       </Splide>
-    
 
-    <div className="flex ">
-      {cards.map((card) => {
-        return (
-          <Card
-            icon={card.icon}
-            title={card.title}
-            description={card.description}
-          />
-        );
-      })}
-    </div>
+      <div className="flex ">
+        {cards.map((card, index) => {
+          return (
+            <Card
+              key={index}
+              icon={card.icon}
+              title={card.title}
+              description={card.description}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };
