@@ -25,10 +25,12 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <body className={inter.className}>
         <Header />
-        {children}
+        <main className="h-screen px-12 md:px-24 lg:px-32">
+          <div className="h-16 lg:h-[6.3rem]" />
+          {children}
+        </main>
       </body>
     </html>
   );
