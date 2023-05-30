@@ -1,8 +1,11 @@
 import React from "react";
+import SubHeader from "./SubHeader";
 
 export default function Header() {
   return (
-    <div className="navbar bg-base-100 fixed px-12 md:px-24 lg:px-32">
+    <div className="fixed w-full">
+      <SubHeader />
+      <div className="navbar bg-base-100 px-12 md:px-24 lg:px-32">
       <div className="navbar-start ">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -12,19 +15,19 @@ export default function Header() {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-            >
+              >
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
-              />
+                />
             </svg>
           </label>
           <ul
             tabIndex={0}
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-          >
+            >
             <li>
               <a>Item 1</a>
             </li>
@@ -37,7 +40,7 @@ export default function Header() {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
-                >
+                  >
                   <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                 </svg>
               </a>
@@ -71,7 +74,7 @@ export default function Header() {
                 width="20"
                 height="20"
                 viewBox="0 0 24 24"
-              >
+                >
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </a>
@@ -92,6 +95,7 @@ export default function Header() {
       <div className="navbar-end">
         <a className="btn">Get started</a>
       </div>
+        </div>
     </div>
   );
 }
