@@ -29,6 +29,11 @@ const Page = () => {
       title: "titre",
       description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     },
+    {
+      icon: <GiFactory size={100} />,
+      title: "titre",
+      description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    },
   ];
   return (
     <div className=" ">
@@ -93,7 +98,7 @@ const Page = () => {
         </SplideSlide>
       </Splide>
 
-      <div className="flex ">
+      <div className="grid grid-cols-1 md:grid-cols-3">
         {cards.map((card, index) => {
           return (
             <Card

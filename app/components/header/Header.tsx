@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="fixed w-full z-50">
       <SubHeader />
-      <div className="navbar bg-base-100 px-12 md:px-24 lg:px-32">
+      <div className="navbar bg-base-100 lg:px-32">
         <div className="navbar-start ">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -105,7 +105,7 @@ export default function Header() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Get started</a>
+          <a className="btn">contactez-nous</a>
         </div>
       </div>
     </div>
