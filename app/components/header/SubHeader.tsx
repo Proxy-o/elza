@@ -35,11 +35,7 @@ export default function SubHeader() {
             <AiOutlinePhone size={20} className="ml-1 mr-1" />
           </a>
         </span>
-        <span className="flex text-sm">
-          <a href="">
-            <AiOutlineLinkedin size={40} className="ml-1 mr-1 -my-1.5" />
-          </a>
-        </span>
+        
       </div>
     </div>
   );
