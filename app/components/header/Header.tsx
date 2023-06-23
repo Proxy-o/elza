@@ -30,7 +30,7 @@ export default function Header() {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Accueill</a>
+                <a href="/">Accueill</a>
               </li>
               <li tabIndex={0}>
                 <a className="justify-between">
@@ -47,7 +47,7 @@ export default function Header() {
                 </a>
                 <ul className="p-2 bg-base-100">
                   <li>
-                    <a>...</a>
+                  <a>imad bgha ychof</a>
                   </li>
                   <li>
                     <a>...</a>
@@ -65,14 +65,14 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl hidden lg:flex">
+          <a className="btn btn-ghost normal-case text-xl hidden lg:flex" href="/">
             <Image src="/images/elza.jpg" width={50} height={50} alt="Elza Power"/>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Accueil</a>
+              <a href="/">Accueil</a>
             </li>
             <li tabIndex={0}>
               <a>
@@ -89,7 +89,7 @@ export default function Header() {
               </a>
               <ul className="p-2 bg-base-100 min-w-[12rem]">
                 <li>
-                  <a>...</a>
+                  <a>imad bgha ychof</a>
                 </li>
                 <li>
                   <a>...</a>
@@ -125,7 +125,7 @@ export default function Header() {
               <a>Projects</a>
             </li>
             <li>
-              <a>Coordonnées</a>
+            <a href="/coordonnees">Coordonnées</a>
             </li>
           </ul>
         </div>
@@ -135,7 +135,7 @@ export default function Header() {
               <AiOutlineLinkedin size={50} className="ml-1 mr-1 -my-1.5" />
             </a>
           </span>
-          <a className="btn btn-ghost normal-case text-xl flex lg:hidden">
+          <a className="btn btn-ghost normal-case text-xl flex lg:hidden" href="/">
             <Image src="/images/elza.jpg" width={50} height={50} alt="Elza Power"/>
           </a>
         </div>
@@ -143,3 +143,4 @@ export default function Header() {
     </div>
   );
 }
+

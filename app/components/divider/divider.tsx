@@ -22,7 +22,7 @@ function Divider() {
           />
         </defs>
         <g className="parallax1">
-          <use xlinkHref="#gentle-wave" x="50" y="3" fill="#F93409" />
+          <use xlinkHref="#gentle-wave" x="50" y="3" fill="#F68D00" />
         </g>
       </svg>
     </div>

@@ -18,7 +18,7 @@ export default function Card({
           <h2 className="card-title">{title}</h2>
           <p>{description}</p>
           <div className="card-actions">
-            <button className="btn btn-primary">plus d{"'"}infos</button>
+            <button className="btn btn-primary text-white">plus d{"'"}infos</button>
           </div>
         </div>
       </div>
