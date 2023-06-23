@@ -7,7 +7,7 @@ function Carousel() {
     type: "loop",
     gap: "1rem",
     autoplay: true,
-    pauseOnHover: true,
+    pauseOnHover: false,
     resetProgress: false,
     interval: 3000,
     arrows: false,
