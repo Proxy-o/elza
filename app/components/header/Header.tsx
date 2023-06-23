@@ -1,10 +1,11 @@
 import React from "react";
 import SubHeader from "./SubHeader";
+import Image from "next/image";
+import { AiOutlineLinkedin } from "react-icons/ai";
 
 export default function Header() {
   return (
     <div className="fixed w-full z-50">
-      <SubHeader />
       <div className="navbar bg-base-100 lg:px-32">
         <div className="navbar-start ">
           <div className="dropdown">
@@ -31,9 +32,9 @@ export default function Header() {
               <li>
                 <a>Accueill</a>
               </li>
-              {/* <li tabIndex={0}>
+              <li tabIndex={0}>
                 <a className="justify-between">
-                  
+                  Pols
                   <svg
                     className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -44,60 +45,62 @@ export default function Header() {
                     <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                   </svg>
                 </a>
-                <ul className="p-2">
+                <ul className="p-2 bg-base-100">
                   <li>
-                    <a>Submenu 1</a>
+                    <a>...</a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a>...</a>
                   </li>
                 </ul>
-              </li> */}
-              <li>
-                <a>Elza Power</a>
               </li>
               <li>
-                <a>Savoir Faire</a>
+                <a>References</a>
+              </li>
+              <li>
+                <a>Projects</a>
               </li>
               <li>
                 <a>Coordonnées</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">Elza Power</a>
+          <a className="btn btn-ghost normal-case text-xl hidden lg:flex">
+            <Image src="/images/elza.jpg" width={50} height={50} alt="Elza Power"/>
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
               <a>Accueil</a>
             </li>
-            {/* <li tabIndex={0}>
+            <li tabIndex={0}>
               <a>
-                Parent
+                Pols
                 <svg
-                  className="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg>
+                    className="fill-current rotate-90"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                  </svg>
               </a>
-              <ul className="p-2">
+              <ul className="p-2 bg-base-100 min-w-[12rem]">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>...</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>...</a>
                 </li>
               </ul>
-            </li> */}
-            <li>
-              <a>Elza Power</a>
             </li>
             <li>
-              <a>Savoir Faire</a>
+              <a>References</a>
+            </li>
+            <li>
+              <a>Projects</a>
             </li>
             <li>
               <a>Coordonnées</a>
@@ -105,7 +108,14 @@ export default function Header() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">contactez-nous</a>
+          <span className="text-sm hidden lg:flex">
+            <a href="">
+              <AiOutlineLinkedin size={50} className="ml-1 mr-1 -my-1.5" />
+            </a>
+          </span>
+          <a className="btn btn-ghost normal-case text-xl flex lg:hidden">
+            <Image src="/images/elza.jpg" width={50} height={50} alt="Elza Power"/>
+          </a>
         </div>
       </div>
     </div>
