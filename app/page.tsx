@@ -46,16 +46,7 @@ const Page = () => {
       <div className="md:h-[40rem] h-[60rem] pt-10 md:pt-0  bg-green-500 relative flex flex-col  md:items-center">
         <div className="z-10  flex justify-center items-center flex-col text-center mt-6">
           <h1 className="font-bold text-[#F68D00] text-3xl">À propos Elza</h1>
-          <p className="text-white md:text-xl ">
-            L entreprise Elza Power a été créé en 2022, dynamique, née d`une
-            véritable passion pour la conception et la réalisation d
-            installations électriques. Notre savoir-faire et nos compétences
-            reposent sur une équipe opérationnelle, nos compétences terrain et
-            des personnels expérimentés et motivés. Quel que soit votre projet,
-            l entreprise Elza Power vous accompagne, identifie l`ensemble de vos
-            besoins et vous propose une installation personnalisée répondant à
-            votre attente
-          </p>
+          <p className="text-white md:text-xl ">lorem eposon </p>
         </div>
         <div className=" h-5 text-center w-full md:grid grid-cols-3 mt-10 text-yellow-100 gap-3 z-10  ">
           <div className="mx-2 mb-6 shadow-2xl border rounded-lg bg-black-400 brightness-200  hover:scale-105 transition duration-200 cursor-pointer">
