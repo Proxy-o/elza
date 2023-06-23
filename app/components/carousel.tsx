@@ -6,7 +6,7 @@ function Carousel() {
   const options = {
     type: "loop",
     gap: "1rem",
-    autoplay: false,
+    autoplay: true,
     pauseOnHover: true,
     resetProgress: false,
     interval: 3000,
