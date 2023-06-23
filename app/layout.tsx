@@ -29,7 +29,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         <main className="h-screen ">
-          <div className="h-16 lg:h-[6.3rem]" />
+          <div className="" />
           {children}
           <Footer />
         </main>

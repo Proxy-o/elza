@@ -17,7 +17,7 @@ function Carousel() {
       <Splide
         options={options}
         aria-label="My Favorite Images"
-        className="border border-black h-full"
+        className="border  h-full"
       >
         <SplideSlide>
           <div className="h-[30rem] md:h-[40rem] w-screen  flex justify-center items-center">

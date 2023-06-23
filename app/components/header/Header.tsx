@@ -5,7 +5,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 
 export default function Header() {
   return (
-    <div className="fixed w-full z-50">
+    <div className="fixed w-full z-50 border-b-2 border-primary">
       <div className="navbar bg-base-100 lg:px-32">
         <div className="navbar-start ">
           <div className="dropdown">
@@ -47,7 +47,7 @@ export default function Header() {
                 </a>
                 <ul className="p-2 bg-base-100">
                   <li>
-                  <a>imad bgha ychof</a>
+                    <a>imad bgha ychof</a>
                   </li>
                   <li>
                     <a>...</a>
@@ -65,8 +65,16 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl hidden lg:flex" href="/">
-            <Image src="/images/elza.jpg" width={50} height={50} alt="Elza Power"/>
+          <a
+            className="btn btn-ghost normal-case text-xl hidden lg:flex"
+            href="/"
+          >
+            <Image
+              src="/images/elza.jpg"
+              width={50}
+              height={50}
+              alt="Elza Power"
+            />
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -78,14 +86,14 @@ export default function Header() {
               <a>
                 Pols
                 <svg
-                    className="fill-current rotate-90"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
+                  className="fill-current rotate-90"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                </svg>
               </a>
               <ul className="p-2 bg-base-100 min-w-[12rem]">
                 <li>
@@ -100,14 +108,14 @@ export default function Header() {
               <a>
                 Activité
                 <svg
-                    className="fill-current rotate-90"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
+                  className="fill-current rotate-90"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                </svg>
               </a>
               <ul className="p-2 bg-base-100 min-w-[12rem]">
                 <li>
@@ -125,7 +133,7 @@ export default function Header() {
               <a>Projects</a>
             </li>
             <li>
-            <a href="/coordonnees">Coordonnées</a>
+              <a href="/coordonnees">Coordonnées</a>
             </li>
           </ul>
         </div>
@@ -135,12 +143,19 @@ export default function Header() {
               <AiOutlineLinkedin size={50} className="ml-1 mr-1 -my-1.5" />
             </a>
           </span>
-          <a className="btn btn-ghost normal-case text-xl flex lg:hidden" href="/">
-            <Image src="/images/elza.jpg" width={50} height={50} alt="Elza Power"/>
+          <a
+            className="btn btn-ghost normal-case text-xl flex lg:hidden"
+            href="/"
+          >
+            <Image
+              src="/images/elza.jpg"
+              width={50}
+              height={50}
+              alt="Elza Power"
+            />
           </a>
         </div>
       </div>
     </div>
   );
 }
-
