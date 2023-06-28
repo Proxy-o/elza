@@ -119,7 +119,7 @@ export default function Header() {
               </a>
               <ul className="p-2 bg-base-100 min-w-[12rem]">
                 <li>
-                  <a href="/activite/industriel">Activité Industriel</a>
+                  <a href="/industriel">Activité Industriel</a>
                 </li>
                 <li>
                   <a>...</a>

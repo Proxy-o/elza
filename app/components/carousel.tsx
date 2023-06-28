@@ -5,11 +5,12 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 function Carousel() {
   const options = {
     type: "loop",
-    gap: "1rem",
+    gap: "0rem",
     autoplay: true,
     pauseOnHover: false,
     resetProgress: false,
-    interval: 3000,
+    interval: 5000,
+
     arrows: false,
   };
   return (
