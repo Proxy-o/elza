@@ -34,7 +34,7 @@ function Carousel() {
               src="/images/carousel/img4.webp"
               alt="Image 1"
               fill
-              className="rounded-md object-cover  brightness-50"
+              className="object-cover  brightness-50"
             />
           </div>
         </SplideSlide>
@@ -52,7 +52,7 @@ function Carousel() {
               src="/images/carousel/img2.webp"
               alt="Image 2"
               fill={true}
-              className="rounded-md object-cover brightness-50"
+              className="object-cover brightness-50"
             />
           </div>
         </SplideSlide>
@@ -70,7 +70,7 @@ function Carousel() {
               src="/images/carousel/img3.webp"
               alt="Image 2"
               fill={true}
-              className="rounded-md object-cover brightness-50"
+              className="object-cover brightness-50"
             />
           </div>
         </SplideSlide>

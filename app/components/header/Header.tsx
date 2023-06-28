@@ -5,7 +5,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 
 export default function Header() {
   return (
-    <div className="fixed w-full z-50">
+    <div className="fixed w-full z-50 border-b-2 border-primary">
       <div className="navbar bg-base-100 lg:px-32">
         <div className="navbar-start ">
           <div className="dropdown">
